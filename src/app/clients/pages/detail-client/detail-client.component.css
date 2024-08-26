@@ -1,0 +1,14 @@
+.input-text-color {
+  color: #f4f4f4; /* Color del borde del input de Bootstrap */
+}
+
+.button-color {
+  background-color: #002c76;
+  border-color: #002c76;
+  color: white; /* Para que el texto del botón sea visible */
+}
+
+.input-text-color {
+  color: #495057; /* Gris oscuro */
+}
+

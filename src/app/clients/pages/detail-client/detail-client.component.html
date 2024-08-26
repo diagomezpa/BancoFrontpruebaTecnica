@@ -1,0 +1,42 @@
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card" style="width: 30rem;">
+    <div class="card-body">
+      <label class="col-sm-12 col-form-label"><strong>Información básica</strong></label>
+      <form>
+        <!-- Campo de producto -->
+        <div class="mb-3 row">
+          <label class="col-sm-12 col-form-label input-text-color">Primer apellido</label>
+          <div class="col-sm-12">
+            <input
+              disabled
+              [value]="client?.primerApellido"
+              type="text"
+              class="form-control input-text-color"
+              placeholder="Primer apellido"
+            />
+          </div>
+        </div>
+
+        <!-- Campo de producto -->
+        <div class="mb-3 row">
+          <label class="col-sm-12 col-form-label input-text-color input-text-color">Primer nombre</label>
+          <div class="col-sm-12">
+            <input
+              disabled
+              [value]="client?.primerNombre"
+              type="text"
+              class="form-control input-text-color"
+              placeholder="Primer nombre"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <button [routerLink]="" class="btn  button-color">Atrás</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

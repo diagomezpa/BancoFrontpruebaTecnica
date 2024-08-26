@@ -1,0 +1,36 @@
+.button-color {
+   background-color: #002c76;
+  border-color: #002c76;
+  color: white; /* Para que el texto del botón sea visible */
+  border-radius: 25px; /* Curvar los extremos */
+  padding: 10px 20px; /* Alargar el botón */
+  width: 75%; /* Ocupa 3/4 del largo de la tarjeta */
+  display: block; /* Para que el botón se comporte como un bloque */
+  margin: 0 auto; /* Centrar el botón horizontalmente */
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.invalid-feedback {
+ position: absolute;
+  top: 100%; /* Posiciona el mensaje justo debajo del input */
+  left: 0;
+  width: 100%;
+  color: red; /* Color del mensaje de error */
+}
+button:disabled {
+  background-color: #d3d3d3; /* Gris claro */
+  color: #a9a9a9; /* Gris oscuro */
+  cursor: not-allowed;
+}
+
+.input-text-color {
+  color: #5372a4; 
+}
+
+.card {
+  background-color: #f7fbff; /* Fondo azul claro */
+}
